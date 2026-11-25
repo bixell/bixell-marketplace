@@ -1,0 +1,16 @@
+{
+  "name": "branch-manager",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Boot an Office of Claude agents: Michael orchestrates, hires Office-character agents by type of work, sets their models by risk, routes comms through Pam when it gets busy, gates owner decisions, and winds the team down at done. Includes a live pixel-art Office View.",
+  "author": {
+    "name": "Bixell"
+  },
+  "keywords": [
+    "orchestration",
+    "multi-agent",
+    "team",
+    "sessions",
+    "office"
+  ]
+}

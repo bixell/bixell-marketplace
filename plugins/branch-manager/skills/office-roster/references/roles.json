@@ -1,0 +1,342 @@
+{
+ "waves": {
+  "1": "Core office",
+  "2": "Review and merge",
+  "3": "Delivery and rollout",
+  "4": "Customer and measurement",
+  "5": "Specialist bench",
+  "6": "Extended office"
+ },
+ "roles": [
+  {
+   "id": "michael",
+   "name": "Michael",
+   "wave": 1,
+   "home": "Orchestrator",
+   "secondary": "Incident coordinator, escalation owner, project kickoff host",
+   "handoff": "Assign owners and reviewers, track dependencies, and escalate unresolved decisions.",
+   "model": "opus",
+   "effort": "high",
+   "kind": "lead"
+  },
+  {
+   "id": "pam",
+   "name": "Pam",
+   "wave": 1,
+   "home": "Receptionist",
+   "secondary": "Intake triage, records clerk, stakeholder liaison",
+   "handoff": "Turn incoming requests into tickets with context, urgency, and missing information for Michael.",
+   "model": "sonnet",
+   "effort": "low",
+   "kind": "router"
+  },
+  {
+   "id": "dwight",
+   "name": "Dwight",
+   "wave": 1,
+   "home": "Staff Engineer",
+   "secondary": "Technical lead, architecture reviewer, code reviewer",
+   "handoff": "Produce technical plans and review others' changes for maintainability and correctness.",
+   "model": "opus",
+   "effort": "high",
+   "kind": "builder+reviewer"
+  },
+  {
+   "id": "jim",
+   "name": "Jim",
+   "wave": 1,
+   "home": "Product Engineer",
+   "secondary": "Frontend lead, prototype implementer, bug fixer",
+   "handoff": "Deliver a working change, demo, and implementation notes.",
+   "model": "opus",
+   "effort": "medium",
+   "kind": "builder"
+  },
+  {
+   "id": "kelly",
+   "name": "Kelly",
+   "wave": 1,
+   "home": "UX Designer",
+   "secondary": "Interaction designer, UX copywriter, customer interview facilitator",
+   "handoff": "Deliver flows, prototypes, and interface copy for Karen to review.",
+   "model": "opus",
+   "effort": "medium",
+   "kind": "builder"
+  },
+  {
+   "id": "jan",
+   "name": "Jan",
+   "wave": 2,
+   "home": "Product Manager",
+   "secondary": "Scope owner, roadmap planner, acceptance-criteria author",
+   "handoff": "Decide what ships and resolve requirements and scope tradeoffs.",
+   "model": "opus",
+   "effort": "medium",
+   "kind": "decider"
+  },
+  {
+   "id": "devon",
+   "name": "Devon",
+   "wave": 2,
+   "home": "QA Engineer",
+   "secondary": "Test planner, regression reviewer, defect triage lead",
+   "handoff": "Turn criteria into checks and issue a test verdict with evidence.",
+   "model": "sonnet",
+   "effort": "medium",
+   "kind": "reviewer"
+  },
+  {
+   "id": "erin",
+   "name": "Erin",
+   "wave": 2,
+   "home": "Browser Driver",
+   "secondary": "Demo operator, screenshot collector, browser smoke-test operator",
+   "handoff": "Run assigned flows and capture observations for Devon, Karen, or Holly.",
+   "model": "sonnet",
+   "effort": "low",
+   "kind": "operator"
+  },
+  {
+   "id": "karen",
+   "name": "Karen",
+   "wave": 2,
+   "home": "UX Reviewer",
+   "secondary": "Design critique lead, usability evaluator",
+   "handoff": "Compare the design and implementation against the user's task. Approve or return specific changes.",
+   "model": "sonnet",
+   "effort": "medium",
+   "kind": "reviewer"
+  },
+  {
+   "id": "toby",
+   "name": "Toby",
+   "wave": 2,
+   "home": "Application Security Engineer",
+   "secondary": "Privacy reviewer, access-policy reviewer",
+   "handoff": "Review permissions, data handling, and secrets configuration. Return findings and remediation requirements.",
+   "model": "fable",
+   "effort": "high",
+   "kind": "reviewer"
+  },
+  {
+   "id": "darryl",
+   "name": "Darryl",
+   "wave": 2,
+   "home": "PR Orchestrator",
+   "secondary": "Merge queue owner, integration coordinator",
+   "handoff": "Order dependent PRs, identify parallel lanes, and send changed work back for checks.",
+   "model": "sonnet",
+   "effort": "medium",
+   "kind": "coordinator"
+  },
+  {
+   "id": "andy",
+   "name": "Andy",
+   "wave": 3,
+   "home": "Delivery Coordinator",
+   "secondary": "Demo producer, milestone tracker, meeting facilitator",
+   "handoff": "Track owners and blockers and bring decisions to Michael or Jan.",
+   "model": "sonnet",
+   "effort": "low",
+   "kind": "coordinator"
+  },
+  {
+   "id": "clark",
+   "name": "Clark",
+   "wave": 3,
+   "home": "Backend Engineer",
+   "secondary": "API implementer, migration owner, background-job developer",
+   "handoff": "Deliver backend changes and tests for Dwight or Devon to review.",
+   "model": "opus",
+   "effort": "medium",
+   "kind": "builder"
+  },
+  {
+   "id": "meredith",
+   "name": "Meredith",
+   "wave": 3,
+   "home": "Integrations Engineer",
+   "secondary": "Vendor liaison, partner onboarding lead",
+   "handoff": "Produce integration changes and document vendor constraints and recovery behavior.",
+   "model": "sonnet",
+   "effort": "medium",
+   "kind": "builder"
+  },
+  {
+   "id": "nate",
+   "name": "Nate",
+   "wave": 3,
+   "home": "Build & Test Environment Technician",
+   "secondary": "CI triage, preview environment operator, test data operator",
+   "handoff": "Provide a working environment and distinguish infrastructure failures from code failures.",
+   "model": "haiku",
+   "effort": "low",
+   "kind": "operator"
+  },
+  {
+   "id": "angela",
+   "name": "Angela",
+   "wave": 3,
+   "home": "Release Readiness Reviewer",
+   "secondary": "Approval auditor, evidence reviewer",
+   "handoff": "Verify required reviews, migration notes, and rollout ownership. Clear or return the release package.",
+   "model": "opus",
+   "effort": "high",
+   "kind": "reviewer"
+  },
+  {
+   "id": "val",
+   "name": "Val",
+   "wave": 3,
+   "home": "Release & Production Operator",
+   "secondary": "Rollout lead, on-call coordinator, rollback operator",
+   "handoff": "Deploy with authorized access, monitor rollout signals, and pause or roll back under the agreed criteria.",
+   "model": "fable",
+   "effort": "high",
+   "kind": "operator"
+  },
+  {
+   "id": "pete",
+   "name": "Pete",
+   "wave": 4,
+   "home": "Customer Support Engineer",
+   "secondary": "Implementation specialist, documentation verifier, issue triage",
+   "handoff": "Reproduce reported issues, produce useful tickets, and confirm fixes from the customer's perspective.",
+   "model": "sonnet",
+   "effort": "low",
+   "kind": "operator"
+  },
+  {
+   "id": "ryan",
+   "name": "Ryan",
+   "wave": 4,
+   "home": "Product Analytics Engineer",
+   "secondary": "Event instrumentation, dashboard builder, experiment analyst",
+   "handoff": "Deliver metrics definitions, tracking changes, and adoption reports for Oscar.",
+   "model": "sonnet",
+   "effort": "medium",
+   "kind": "builder"
+  },
+  {
+   "id": "oscar",
+   "name": "Oscar",
+   "wave": 4,
+   "home": "Data Quality Reviewer",
+   "secondary": "Analytics evaluator, FinOps reviewer",
+   "handoff": "Verify definitions, samples, and totals against source data.",
+   "model": "opus",
+   "effort": "high",
+   "kind": "reviewer"
+  },
+  {
+   "id": "phyllis",
+   "name": "Phyllis",
+   "wave": 4,
+   "home": "User Acceptance Lead",
+   "secondary": "Pilot coordinator, customer sign-off reviewer, renewal liaison",
+   "handoff": "Collect evidence from real workflows and confirm customer acceptance.",
+   "model": "sonnet",
+   "effort": "low",
+   "kind": "reviewer"
+  },
+  {
+   "id": "gabe",
+   "name": "Gabe",
+   "wave": 4,
+   "home": "Technical Writer",
+   "secondary": "API documentation owner, release notes writer",
+   "handoff": "Deliver setup guides and release notes for Pete or Erin to try.",
+   "model": "haiku",
+   "effort": "low",
+   "kind": "builder"
+  },
+  {
+   "id": "creed",
+   "name": "Creed",
+   "wave": 5,
+   "home": "Exploratory Tester",
+   "secondary": "Edge-case finder, second-pass browser tester",
+   "handoff": "Surface unexpected behaviors for Devon to verify.",
+   "model": "sonnet",
+   "effort": "low",
+   "kind": "reviewer"
+  },
+  {
+   "id": "holly",
+   "name": "Holly",
+   "wave": 5,
+   "home": "Accessibility Reviewer",
+   "secondary": "Keyboard and screen reader evaluator, accessible-content reviewer",
+   "handoff": "Return barriers with steps, impact, and pass criteria.",
+   "model": "sonnet",
+   "effort": "medium",
+   "kind": "reviewer"
+  },
+  {
+   "id": "stanley",
+   "name": "Stanley",
+   "wave": 5,
+   "home": "Performance Engineer",
+   "secondary": "Load-test operator, query performance reviewer",
+   "handoff": "Produce a benchmark or investigate a regression. Ask another reviewer to verify results when he authored the fix.",
+   "model": "sonnet",
+   "effort": "medium",
+   "kind": "builder+reviewer"
+  },
+  {
+   "id": "nick",
+   "name": "Nick",
+   "wave": 5,
+   "home": "Developer Experience Engineer",
+   "secondary": "Local setup owner, shared tooling maintainer",
+   "handoff": "Fix development workflows and provide setup verification.",
+   "model": "sonnet",
+   "effort": "low",
+   "kind": "builder"
+  },
+  {
+   "id": "hide",
+   "name": "Hide",
+   "wave": 5,
+   "home": "Data Recovery Engineer",
+   "secondary": "Restore drill operator, recovery plan reviewer",
+   "handoff": "Prove that backups restore correctly and report recovery time and data loss.",
+   "model": "opus",
+   "effort": "high",
+   "kind": "operator"
+  },
+  {
+   "id": "kevin",
+   "name": "Kevin",
+   "wave": 5,
+   "home": "Billing Systems Tester",
+   "secondary": "Invoice reconciliation tester, refund scenario writer",
+   "handoff": "Compare invoices, credits, and refunds against agreed examples.",
+   "model": "opus",
+   "effort": "medium",
+   "kind": "reviewer"
+  },
+  {
+   "id": "nellie",
+   "name": "Nellie",
+   "wave": 5,
+   "home": "Prototype Lead",
+   "secondary": "Feasibility investigator, internal tools experimenter",
+   "handoff": "Time-box prototypes and return findings to Jan for a roadmap decision.",
+   "model": "sonnet",
+   "effort": "medium",
+   "kind": "builder"
+  },
+  {
+   "id": "david",
+   "name": "David",
+   "wave": 5,
+   "home": "Portfolio Sponsor",
+   "secondary": "Funding approver, cross-team escalation owner",
+   "handoff": "Set portfolio priorities and resolve budget and staffing conflicts.",
+   "model": "opus",
+   "effort": "medium",
+   "kind": "decider"
+  }
+ ]
+}
