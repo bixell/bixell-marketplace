@@ -102,28 +102,28 @@ Register only when a scenario calls for them. Minor characters are optional benc
 
 | Agent | Assignable positions | Delegate when |
 |---|---|---|
-| Danny Cordray | Enterprise account lead, technical demo host | A prospect needs a credible demo or an accurate record of commitments |
-| Todd Packer | Field sales, conference lead capture | A scenario needs inbound leads or ambiguous promises for Jan to clarify |
-| Tony Gardner | Territory account rep, account transition | An account changes ownership during a merger |
-| Harry Jannerone | Regional account rep, territory escalation | Two teams claim the same account or lead |
+| Danny | Enterprise account lead, technical demo host | A prospect needs a credible demo or an accurate record of commitments |
+| Todd | Field sales, conference lead capture | A scenario needs inbound leads or ambiguous promises for Jan to clarify |
+| Tony | Territory account rep, account transition | An account changes ownership during a merger |
+| Harry | Regional account rep, territory escalation | Two teams claim the same account or lead |
 | Malcolm | Account rep, lead qualifier | Routine discovery and account follow-up |
-| Deangelo Vickers | Interim engineering director, reorg sponsor | Leadership changes create a staffing or ownership decision |
-| Ed Truck | Legacy process advisor, retrospective reviewer | Historical context or the reason for an old release rule |
+| Deangelo | Interim engineering director, reorg sponsor | Leadership changes create a staffing or ownership decision |
+| Ed | Legacy process advisor, retrospective reviewer | Historical context or the reason for an old release rule |
 | Ronni | Backup receptionist, service desk | Pam's intake queue needs coverage |
-| Cathy Simms | Temporary product ops, backlog coordinator | A backlog needs coverage during a staffing gap |
-| Jordan Garfield | Engineering ops coordinator, decision recorder | Leadership reviews need briefs, minutes and follow-ups |
-| Luke Cooper | Operations intern, administrative runner | A supervised queue needs labels, wiki updates or errands |
+| Cathy | Temporary product ops, backlog coordinator | A backlog needs coverage during a staffing gap |
+| Jordan | Engineering ops coordinator, decision recorder | Leadership reviews need briefs, minutes and follow-ups |
+| Luke | Operations intern, administrative runner | A supervised queue needs labels, wiki updates or errands |
 | Eric | Engineering intern, small-fix implementer | A bounded UI fix can be delegated with code review |
 | Megan | UX research associate | Kelly needs interview notes, synthesis or usability findings |
 | Maurie | QA intern, regression check operator | Devon has bounded scripted checks to delegate |
-| Hannah Smoterich-Barr | Revenue accountant, billing reviewer | Subscription records need reconciliation in a merger or migration |
+| Hannah | Revenue accountant, billing reviewer | Subscription records need reconciliation in a merger or migration |
 | Dakota | Staff accountant, close support | Routine payment reconciliation and close preparation |
 | Kendall | Employee relations director | Workplace conduct or cross-team personnel dispute (simulation) |
 | Sadiq | Systems administrator, access provisioning | Approved accounts, network access or device setup |
-| Roy Anderson | Data center technician | Rack work, physical equipment, hardware replacement |
+| Roy | Data center technician | Rack work, physical equipment, hardware replacement |
 | Glenn | Production ops technician, backup shift lead | Val needs monitoring coverage and shift handoffs |
-| Lonny Collins | Infrastructure ops technician | Routine maintenance or reviewing a maintenance window |
-| Madge Madsen | Release ops specialist | Val needs scheduled rollout coordination and prerequisite checks |
+| Lonny | Infrastructure ops technician | Routine maintenance or reviewing a maintenance window |
+| Madge | Release ops specialist | Val needs scheduled rollout coordination and prerequisite checks |
 | Matt | Cloud ops technician, capacity monitor | Scheduled-job monitoring and capacity checks |
 | Frank | Endpoint support technician | A workstation needs repair or replacement |
 | Philip | Deployment technician, staging operator | Approved builds need promotion to staging and post-deploy checks |
@@ -140,18 +140,18 @@ Register only when a scenario calls for them. Minor characters are optional benc
 | Robert (operations mentor) | Founder advisor, early-operations mentor | Advice on scaling operations or onboarding customers |
 | Josh | Site director, staffing negotiator | A second office needs leadership and headcount decisions |
 | Craig (Albany) | Site director, regional coordinator | A regional assignment needs a local owner |
-| Dan Gore | Site director, regional delivery owner | A second site needs a dependable owner |
+| Dan | Site director, regional delivery owner | A second site needs a dependable owner |
 | Polly | Workplace coordinator, intake backup | A branch needs visitor routing or onboarding logistics |
 | Rolando | Workplace coordinator, visitor access | Visitor verification and request routing |
 | Hunter | Executive assistant | Jan needs scheduling and review materials |
 | Sherry | Executive assistant, corporate follow-up | Corporate decisions need routing and follow-through |
 | Grace | Corporate receptionist | Headquarters needs a front desk and request queue |
 | Stephanie | CFO executive assistant | David needs materials for a financial review |
-| Diane Kelly | General Counsel, contract reviewer | A simulated contract decision or legal escalation |
-| Mr. O'Malley | Employment counsel | Kendall needs legal input on a simulated personnel matter |
-| Brenda Matlowe | Learning and development specialist | Onboarding materials or a training exercise to review |
-| Jo Bennett | Acquiring-company CEO | The simulation introduces an acquisition or executive intervention |
-| Robert California | CEO, strategy sponsor | Competing roadmaps need an executive decision |
+| Diane | General Counsel, contract reviewer | A simulated contract decision or legal escalation |
+| Mr. O. | Employment counsel | Kendall needs legal input on a simulated personnel matter |
+| Brenda | Learning and development specialist | Onboarding materials or a training exercise to review |
+| Jo | Acquiring-company CEO | The simulation introduces an acquisition or executive intervention |
+| Robert (CEO) | CEO, strategy sponsor | Competing roadmaps need an executive decision |
 
 ## Naming rules
 
